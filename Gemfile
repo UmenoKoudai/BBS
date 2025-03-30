@@ -6,6 +6,7 @@ gem "rails", "~> 8.0.2"
 gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
+gem "activerecord", "~> 8.0.2"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
@@ -30,6 +31,9 @@ gem "kamal", require: false
 gem "thruster", require: false
 gem 'rack-cors'
 gem 'aws-sdk-rails', '~> 5'
+gem 'devise_token_auth'
+gem 'devise'
+
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
